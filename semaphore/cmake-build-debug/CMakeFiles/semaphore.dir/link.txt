@@ -1,0 +1,3 @@
+"E:\Programs\Software\JetBrains Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\semaphore.dir/objects.a
+E:\MinGW\bin\ar.exe cr CMakeFiles\semaphore.dir/objects.a @CMakeFiles\semaphore.dir\objects1.rsp
+E:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\semaphore.dir/objects.a -Wl,--no-whole-archive -o semaphore.exe -Wl,--out-implib,libsemaphore.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\semaphore.dir\linklibs.rsp
